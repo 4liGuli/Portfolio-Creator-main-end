@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+.menuicon{
+    position: fixed;
+    background-color: white;
+    width: 0;
+    height: 100%;
+    z-index: 99999;
+    overflow-x: hidden;
+    transition: 1s ease;
+}
+
+.mobile-navbar{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mobile-navbar a{
+    text-decoration: none;
+    font-size: 33px;
+    min-width: 160px;
+    color: #000;
+    
+}
+
+.menuicon div a{
+    color: black !important;
+}
+.menuicon .mobile-navbar a:hover{
+    transform: translateX(30px);
+    transition: 1s ease;
+}
+
+.fa-xmark{
+    color: black;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+}
+.aktiv{
+    width: 100%;
+}
+.evvel-duyme{
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.next-duyme{
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-nav{
+    margin-inline-start: auto;
+}
+.menu a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.girissol h1{
+    font-size: 47px;
+}
+.girissol{
+    padding-top: 60px;
+}
+.girissol p{
+    color: #666666;
+
+}
+.design{
+    color: #FF8A56;
+}
+a{
+    text-decoration: none ;
+}
+.clickbutton .bookacallbtn  {
+    color: #fff;
+    background-color: black;
+    display: inline-flex;
+    width: 151px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.clickbutton .downloadbtn{
+    color: #000;
+    text-decoration: none;
+}
+.intro-right-side img{
+    padding-top: 40px;
+    width: 100%;
+}
+.partnyor img{
+    width: 250px;
+    margin-left: 40px;
+}
+.designtext{
+    font-size: 28px;
+}
+.Trusted{
+    overflow: hidden;
+}
+.Trusted h4{
+    text-align: center;
+}
+.Trusted .swiper-slide{
+    text-align: center;
+}
+.services-text{
+    text-align: center;
+    letter-spacing:4px;
+    margin-top: 120px;
+    color:  #FF5E69;
+    font-size: 22px;
+   
+}
+.serviceslogo div ul li{
+    margin-left: -15px;
+}
+.service-cards .card img{
+    width: 70px;
+}
+.service-cards p{
+    color: #666666;
+}
+.project{
+    padding-top: 80px;
+}
+.project h6{
+    color:  #B16CEA;
+}
+
+
+.view-btn {
+    color: #fff;
+    background-color: black;
+    display: inline-flex;
+    width: 201px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.SERVICES h1{
+    text-align: center;
+    
+}
+
+  
+.card-body{
+    width: 486px;
+    background-color: white;
+}
+
+.card-body{
+    width: 486px;
+    margin-right: 10px;
+}
+  
+.card-body h6{
+    font-size: 14px;
+    color: #3C46FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.card-body h3{
+    font-size: 14px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    font-style: normal;
+}
+  
+.card-body a{
+    font-size: 18px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+  
+.card-body img{
+    width: 15px;
+}
+
+
+.projecttext{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.naviqasiya-butonlar{
+    display: flex;
+    justify-content: end;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+    padding: 200px 10px;
+}
+  
+.dark a {
+  text-decoration: none;
+  color: #fff;
+}
+    
+.blog {
+  border-bottom: 1px solid #ccc ;
+}
+
+.color-blog{
+    color: #FFA84B;
+}
+.prevbtn-button{
+    background-color: #fff;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+}
+.afterbtn-button{
+    background-color: #fff;
+    width: 54px;
+    height: 54px;
+}
+.naviqasiya-butonlar{
+    padding-top: 20px;
+  }
+.dark{
+    margin-top: -180px;
+  }
+  
+
+  .Testimonials h6{
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #4353FF;
+  }
+  
+  .Testimonials h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    font-style: normal;
+  
+  }
+  
+  .card-bodyy {
+    display: inline-block;
+    
+  }
+  
+  .projects-Swiper{
+    overflow: hidden;
+  }
+  
+  .cardd img{
+    width: 485px;
+    height: 450px;
+    margin-right: 146px;
+    margin-bottom: 85px;
+  }
+  
+  
+  .card-bodyy h3{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    font-style: normal;
+    margin-top: -50px;
+  }
+  
+  .card-bodyy h5{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 100px;
+  }
+  
+  .card-bodyy h6{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  .card-bodyy h1{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: -200px;
+    
+  }
+  
+  .cardd div img{
+    width: 45px;
+    height: 45px;
+    margin-top: -15px;
+  }
+  
+  
+  
+  .prevBtnnextBtnn{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    z-index: 99999;
+    position: relative;
+  }
+  .prevBtnnextBtnn button{
+  background-color: #000;
+  height: 54px;
+  width: 54px;
+  }
+
+  .projects-Swiperr{
+    overflow: hidden;
+  }
+
+
+  .faqs{
+    background-color: #000;
+    display: block;
+    overflow: hidden;
+    
+  }
+  
+  .faqs h6{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    color: #FF8A56;
+  }
+  
+  .faqs h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 54px;
+  }
+
+  .faqs .ac{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .ac-header{
+    background-color:black;
+  }
+  
+  .ac-header button{
+    border: 1px solid transparent;
+    outline: 1px solid black !important;
+    color: #fff !important;
+  }
+  
+  .ac-panel{
+    background-color: black;
+    outline: 1px solid white !important;
+  }
+  
+  .accordion-container button, .accordion-container2 button{
+    padding: 41px 0 !important;
+  }
+  
+  .ac-panel .ac-text{
+    color: #fff !important;
+  }
+
+
+
+  .logo-iconend{
+    display: block;
+    background-color: black;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .Readytomakesomethingkickass h6{
+    font-size: 54px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+    
+  .Readytomakesomethingkickass h5{
+    font-size: 54px;
+    color: #3C46FF;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
+  .logo-iconsend{
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .logo-iconend-row{
+    display: inline-flex ;
+  }
+  .logo-icon11end img{
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  
+  .logo-icon1end ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logo-icon1end{
+    margin-bottom: 40px;
+    padding: 0 35px;
+  }
+  
+  .logo-icon1end ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 450;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .logo-icon1end ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 5px;
+  }
+  .logo-icon11end ul{
+    list-style: none;
+    padding: 0;
+  }
+  .logo-icon11end h6{
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 450;
+    color: #666666;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .logo-icon11end h5{
+    font-size: 16px;
+    font-weight: 450;
+    color: #666666;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  
+
+
+  @media (min-width:320px) and (max-width:480px){
+   .partnyor img{
+    width: 230px;
+    margin-left: 20px;
+   }
+   .designtext{
+    font-size: 22.7px;
+   }
+   .faqs .ac{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .girissol{
+    padding: 10px; 
+}
+.girissol h1{
+    font-size:38px; 
+}
+.logo{
+    width: 200px;
+}
+
+.Testimonials h2{
+    font-size: 40px;
+  
+  }
+
+  .cardd img {
+    width: 365px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+
+  .card-bodyy h3{
+  font-size: 23px;
+  margin-top: 0px;
+}
+
+.card-bodyy h5{
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.prevBtnnextBtnn{
+  margin-top: 110px;
+}
+.prevBtnnextBtnn button{
+  height: 54px;
+  width: 54px;
+}
+
+.Readytomakesomethingkickass h6{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+    
+  .Readytomakesomethingkickass h5{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+  .logo-icon11end h6{
+    margin-left: 20px;
+  }
+  .logo-icon11end h5{
+    margin-left: 0px;
+  }
+  .logo-icon11end img{
+    margin-left: 20px;
+  }
+  
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .girissol h1{
+        font-size: 43px;
+    }
+    .girissol p{
+    font-size: 24px;
+    }
+    .card p{
+        font-size: 22px;
+    }
+    .card h5{
+        font-size: 30px;
+        
+    }
+    .SERVICES .services-text {
+        font-size: 40px;
+    }
+    .serviceslogo ul li{
+        font-size: 22px;
+    }
+    .designtext{
+        font-size: 53px;
+    }
+   .worker-left-side img{
+    width:100% ;
+    padding-top: 1px;
+   }
+   .worker-right-side h1{
+    font-size: 25px;
+   }
+   .worker-right-side img {
+    padding-top: 20px;
+   }
+   .worker-right-side h1{
+    padding-top: -10px;
+   }
+  
+  .cardd img {
+    width: 300px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .cardd div img {
+    width: 25px;
+}
+
+  .card-bodyy h3{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-bodyy h5{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.card-bodyy h1{
+  font-size: 1px;
+  margin-top: -120px;
+}
+.prevBtnnextBtnn{
+  margin-top: -120px;
+}
+
+.faqs .ac{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Readytomakesomethingkickass h6{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+    
+  .Readytomakesomethingkickass h5{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .logo-icon11end h6{
+    margin-left: 20px;
+  }
+  .logo-icon11end h5{
+    margin-left: 0px;
+  }
+  .logo-icon11end img{
+    margin-left: 20px;
+  }
+  
+}
+
+@media(min-width:992px){
+    .girissol h1{
+        font-size: 70px;
+    }
+    .girissol{
+        padding-top: 130px;
+    }
+    .girissol .downloadbtn {
+        margin-left: 20px;
+        
+    }
+    .intro-right-side img{
+        width: 550px;
+    }
+    .partnyor img{
+        width: 200px;
+    }
+    .designtext{
+        font-size: 54px;
+    }
+    .giris p{
+        font-size: 22px;
+    }
+   .worker-left-side img{
+    width: 500px;
+   }
+   .worker-right-side {
+    padding-top: 70px;
+   }
+   .dark{
+    margin-top: -170px;
+   }
+   .cardd img {
+    width: 450px;
+    height: 450px;
+
+  }
+
+  .card-bodyy h3{
+  font-size: 23px;
+  margin-top: 0px;
+}
+
+.card-bodyy h5{
+  font-size: 20px;
+  margin-top: 100px;
+}
+.card-bodyy h1{
+    margin-top: -180px;
+  }
+
+.prevBtnnextBtnn{
+  margin-top: -160px;
+}
+.prevBtnnextBtnn button{
+  height: 54px;
+  width: 54px;
+}
+}
